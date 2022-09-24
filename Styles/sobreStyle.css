@@ -1,7 +1,7 @@
 body{
     color: #f0f8ff;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto Serif', serif;
     background-color: #949ca3;
 }
@@ -19,10 +19,10 @@ header{
 
 
 #NavBar{
-    width: 55rem;
+    width: 100%;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .NavBtn{

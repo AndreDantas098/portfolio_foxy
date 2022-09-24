@@ -1,9 +1,9 @@
 body{
-    color: aliceblue;
-    margin: 0px;
-    padding: 0px;
-    background-color: #949ca3;
+    color: #f0f8ff;
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto Serif', serif;
+    background-color: #949ca3;
 }
 
 
@@ -14,16 +14,15 @@ header{
     align-items: center;
     background-color: #0e0e0e;
 
-
 }
 
 
 
 #NavBar{
-    width: 55rem;
+    width: 100%;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .NavBtn{
@@ -31,6 +30,7 @@ header{
     padding: 12px;
     text-decoration: none;
     color: #949ca3;
+    text-align: center;
     font-size: 1.32rem;
     background-color: transparent;
     border: none;
@@ -38,12 +38,11 @@ header{
     color: #949ca3;
     transition: 0.6s;
     cursor: pointer;
-    text-align: center;
 }
 
 .NavBtn:hover{
     background-color: #333;
-    color: aliceblue;
+    color: #f0f8ff;
 }
 
 h1{
@@ -63,7 +62,6 @@ h1{
     height: 3rem;
     margin: 0px 9px;
 }
-
 
 .arts{
     width: 225px;
