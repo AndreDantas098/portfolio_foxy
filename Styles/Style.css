@@ -94,7 +94,7 @@ h1{
 
 /*inicio*/
 
-mainInicio{
+#mainInicio{
     display: flex;
     justify-content: center;
     width: 100%;
