@@ -62,8 +62,88 @@ h1{
     height: 3rem;
     margin: 0px 9px;
 }
+/*a partir daqui é tudo diferente*/
+/*sobre o artista*/
+#all{
+    margin-top: 1rem;
+    border: solid 4px #0e0e0e;
+    background-color: aliceblue;
+    color: #0e0e0e;
+    width: 55rem;
+    display: flex;
+
+}
+#titlesSobre{
+    color: #949ca3;
+}
+#sobreMain{
+    
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#pfp{
+    width: 15rem;
+    height: 15rem;
+    margin: 1rem;
+    border: solid 4px #0e0e0e;
+}
+
+/*inicio*/
 
 main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #949ca3;
+
+}
+#wednsdayaddams{
+    width: 55rem;
+}
+
+/*galeria*/
+
+.arts{
+    width: 225px;
+    margin: 0.75rem;
+    
+}
+
+.paints{
+    width: 55rem;
+    display: flex;
+    background-color: aliceblue;
+    color: #0e0e0e;
+    margin: 1rem;
+    border: solid 4px #0e0e0e;
+
+}
+
+article{
+    margin-top: 1.5rem;
+}
+.articleTilte{
+    margin: 0px;
+    font-size: 2rem;
+    color: #949ca3;
+}
+#mainGallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.artigo{
+    font-size: 1.3rem;
+}
+
+/*contato*/
+
+#contactMain{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,7 +176,7 @@ i{
 
 }
 
-h2{
+#contatoTitle{
     font-size: 2.7rem;
 }
 
