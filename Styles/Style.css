@@ -197,6 +197,14 @@ i{
     #NavBar{
         flex-direction: column;
     }
+    h1{
+        font-size: 2rem;
+
+    }
+    #icon{
+        width: 2.6rem;
+        height: 2.6rem;
+    }
     /*responsividade contatos*/
     #boxes{
         flex-direction: column;
